@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="richardperes.bokunoryoko.MainActivity">
 
-    <fragment
-        xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
         android:id="@+id/map"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        map:mapType="normal"
+        android:layout_width="182dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         map:cameraTargetLat="36.262332"
         map:cameraTargetLng="136.896253"
         map:cameraZoom="10"
-    />
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:mapType="normal" />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/lel"
+        android:layout_width="274dp"
+        android:layout_height="146dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map" />
+=======
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+>>>>>>> 23899db40bfa2f10e0b172e5c3b1551f201d53a5
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</android.support.design.widget.CoordinatorLayout>

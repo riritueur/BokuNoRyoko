@@ -1,0 +1,89 @@
+{
+  "nom":"Atami",
+    "theme":"Ville",
+    "description":"Ville de bord de mer",
+    "lat" : 35.09627,
+    "long" : 139.0717,
+    "photo": ["https://www.jnto.go.jp/eng/wp-content/uploads/2013/07/Atami-onsen-Hot-Spring.jpg","http://c8.alamy.com/comp/A3J5HE/atami-sun-beach-atami-higashiizu-shizuoka-japan-sea-sea-bathing-sandy-A3J5HE.jpg", "http://c8.alamy.com/comp/A4F1J3/atami-castle-atami-shizuoka-japan-castle-izu-peninsula-A4F1J3.jpg"]
+ }
+
+{
+    "nom":"Jogasaki",
+    "theme":"Ville",
+    "description":"Ville au bord de mer",
+    "lat" : 34.89109,
+    "long" : 139.13889,
+    "photo": ["http://c8.alamy.com/comp/C5GEM9/jogasaki-seashore-suspension-bridge-ito-higashiizu-izu-peninsula-shizuoka-C5GEM9.jpg","https://c8.alamy.com/comppt/axg2ww/o-sol-da-manha-suspension-bridge-jogasaki-peninsula-izu-izu-ito-shizuoka-japao-axg2ww.jpg", "https://upload.wikimedia.org/wikipedia/commons/b/b1/Izu_Jogasaki_-_%E4%BC%8A%E8%B1%86%E5%9F%8E%E3%82%B1%E5%B4%8E%E6%B5%B7%E5%B2%B8_m-8_-_panoramio.jpg"]
+ }
+
+{
+    "nom":"Yumighama",
+    "theme":"Plage",
+    "description":"Plage paradisiaque",
+    "lat" : 34.63459,
+    "long" : 138.89034,
+    "photo": ["http://yokotatravel.com/wp-content/uploads/2014/07/DSC08531.jpg","https://i.ytimg.com/vi/zGXhmToyqXU/maxresdefault.jpg", "https://www.guidoor.jp/wordpress/wp-content/uploads/2017/07/3.jpg"]
+ }
+
+{
+    "nom":"Shuzenji",
+    "theme":"Village historique",
+    "description":"Village historique kawaii",
+    "lat" : 34.97186, 
+    "long" : 138.9304,
+    "photo": ["http://guide-japan.up.n.seesaa.net/guide-japan/image/IMG_1325.JPG?d=a1","http://c8.alamy.com/comp/A4E7W7/red-leaves-katsura-bridge-shuzenji-izu-peninsula-shizuoka-japan-red-A4E7W7.jpg", "http://c8.alamy.com/comp/A9BYPY/stone-pavement-shuzenji-izu-nakaizu-izu-peninsula-shizuoka-japan-A9BYPY.jpg"]
+ }
+
+{
+    "nom":"Hirizohama",
+    "theme":"Plage",
+    "description":"Petite crique sympathique",
+    "lat" : 34.60733, 
+    "long" : 138.82578,
+    "photo": ["http://www.suishohama.com/jq/images/bg_001.jpg","https://3.bp.blogspot.com/-RaRR8bsRnrk/V5ij94RT94I/AAAAAAAAMc0/qg1NSN4G3RA4Mfi0IKWXaJ66o86tkON6ACEw/s1600/P7230482.JPG", "https://3.bp.blogspot.com/-IE05Ctpy7oE/V5ij-J5wf8I/AAAAAAAAMc4/oOcbE4CpFTQ926mba8aJQ6vNb1ioQnTCwCEw/s1600/P7230484.JPG"]
+ }
+
+{
+    "nom":"Irozaki",
+    "theme":"Paysage",
+    "description":"Paysage naturel mêlant ",
+    "lat" : 34.6102,
+    "long" : 138.84247,
+    "photo": ["https://lifetoreset.files.wordpress.com/2012/05/p3252905.jpg","https://upload.wikimedia.org/wikipedia/commons/d/dc/Irozaki-Lighthouse.JPG", "https://i.ytimg.com/vi/K9G6XbUE2lA/maxresdefault.jpg"]
+ }
+
+{
+    "nom":"Shirahama",
+    "theme":"Plage",
+    "description":"Plage géante de sable fin",
+    "lat" : 34.69197, 
+    "long" : 138.97182,
+    "photo": ["https://i.ytimg.com/vi/DAJIDBNYwb4/maxresdefault.jpg","https://www.jnto.go.jp/eng/wp-content/uploads/2016/06/Shirahama-Area.jpg", "https://wikitravel.org/upload/shared//7/72/Shirahama_Banner.jpg"]
+ }
+
+{
+    "nom":"Shimoda",
+    "theme":"Ville",
+    "description":"",
+    "lat" : 34.67953, 
+    "long" : 138.94531,
+    "photo": ["http://c8.alamy.com/comp/B1J0F4/perry-road-city-view-hydrangea-evening-view-minamiizu-shimoda-izu-B1J0F4.jpg","https://t-ec.bstatic.com/images/hotel/max1024x768/420/42089931.jpg", "https://travelsonasmallisland.files.wordpress.com/2012/05/shimoda1.jpg"]
+ }
+
+{
+    "nom":"Dougashima",
+    "theme":"Paysage",
+    "description":"Laissez vous tentez par une croisière de rêve entre les récifs",
+    "lat" : 34.78244,
+    "long" : 138.76738,
+    "photo": ["https://www.jnto.go.jp/eng/wp-content/uploads/2013/06/Dogashima-Coast.jpg","http://3.bp.blogspot.com/_shUCmxcyHc0/TBj0eH7EAzI/AAAAAAAAGTA/an6NeZr3Kp0/s0/DSCF4592.JPG", "https://travelsonasmallisland.files.wordpress.com/2012/05/dogashima1.jpg"]
+ }
+
+{
+    "nom":"Koibito Misaki",
+    "theme":"Paysage",
+    "description":"Point de vue où l'on peut apercevoir le mont Fuji",
+    "lat" : 34.8677, 
+    "long" : 138.75506,
+    "photo": ["http://kanko.city.izu.shizuoka.jp/org/p2706_14.jpg","https://fastjapan.com/en/wp-content/uploads/2016/11/koibito2.jpg", "https://pbs.twimg.com/media/DPAfFGlUQAAm8SX.jpg"]
+ }
