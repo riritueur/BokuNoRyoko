@@ -1,37 +1,21 @@
 package richardperes.bokunoryoko;
 
-<<<<<<< HEAD
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
+
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.ListView;
-=======
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
->>>>>>> 23899db40bfa2f10e0b172e5c3b1551f201d53a5
-
-import java.io.InputStream;
-import java.util.ArrayList;
+import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity implements LieuAdapter.LieuAdapterListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
-        setContentView(R.layout.jason);
+        //setContentView(R.layout.jason);
+        setContentView(R.layout.activity_main);
 
         CreateJson list= new CreateJson();
         list.construireListe(this);
@@ -40,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements LieuAdapter.LieuA
         listV.setAdapter(adapter);
         //adapter.addListener(this);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
     }
 
 
@@ -50,11 +36,6 @@ public class MainActivity extends AppCompatActivity implements LieuAdapter.LieuA
         builder.setMessage("Vous avez cliqué sur : " + item.getNom());
         builder.setPositiveButton("Ok blk", null);
         builder.show();
-=======
-        setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
     }
 
     @Override
@@ -77,6 +58,5 @@ public class MainActivity extends AppCompatActivity implements LieuAdapter.LieuA
         }
 
         return super.onOptionsItemSelected(item);
->>>>>>> 23899db40bfa2f10e0b172e5c3b1551f201d53a5
     }
 }

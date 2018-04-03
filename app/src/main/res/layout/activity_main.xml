@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="richardperes.bokunoryoko.MainActivity">
 
-<<<<<<< HEAD
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
         android:id="@+id/map"
@@ -24,20 +23,11 @@
         map:layout_constraintTop_toTopOf="parent"
         map:mapType="normal" />
 
-    <ImageView
-        android:id="@+id/lel"
-        android:layout_width="274dp"
-        android:layout_height="146dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginTop="68dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/map" />
-=======
-    <android.support.design.widget.AppBarLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
->>>>>>> 23899db40bfa2f10e0b172e5c3b1551f201d53a5
+
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -46,7 +36,6 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_main" />
 
