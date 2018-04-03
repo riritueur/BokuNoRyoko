@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Bokuno Ryoko</string>
+    <string name="app_name">Boku no Debug</string>
+    <string name="action_settings">Settings</string>
 </resources>
